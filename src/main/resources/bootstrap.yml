@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: eshop
+
+logging.file.max-history: 1
+logging:
+  file:
+    name: logs/eshop.log
