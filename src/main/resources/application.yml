@@ -1,0 +1,28 @@
+feign.hystrix.enabled: false
+
+spring:
+  main:
+    lazy-initialization: false
+  application:
+    name: eshop
+
+  data:
+    mongodb:
+      database: eshop
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+  server:
+    port: 9080
+
+  endpoint:
+    health:
+      show-details: always
+
+
+
